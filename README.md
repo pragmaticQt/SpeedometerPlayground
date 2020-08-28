@@ -21,6 +21,8 @@ Checkout Step-2 branch to see how it works.
 
 Add some simulations to move needle.
 
+![Alt text](site/20200828_155529.gif?raw=true "3")
+
 Checkout Step-3 branch to see how it works.
 
 ### Step four
