@@ -9,7 +9,7 @@ App {
         width: 1024
         height: 600
 
-        title: "Qt Quick Extras Demo"
+        title: "Qt CircularGauge Demo"
 
         Item {
             id: container
@@ -17,10 +17,14 @@ App {
             width: root.width
             height: Math.min(root.width, root.height)
 
+            ValueSource {
+                id: valueSource
+            }
+
             CircularGauge {
                 id: speedometer
                 anchors.centerIn: parent
-                value: 100
+                value: valueSource.kph
                 anchors.verticalCenter: parent.verticalCenter
                 maximumValue: 280
                 // We set the width to the height, because the height will always be
