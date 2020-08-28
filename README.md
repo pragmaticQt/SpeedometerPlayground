@@ -27,4 +27,6 @@ Checkout Step-3 branch to see how it works.
 
 Add background sound to make it real.
 
+[![Speedometer by pragmaticQt](http://img.youtube.com/vi/6yxHTUX0ctY/0.jpg)](http://www.youtube.com/watch?v=6yxHTUX0ctY "Speedometer by pragmaticQt")
+
 Checkout Final branch to see how it works.
