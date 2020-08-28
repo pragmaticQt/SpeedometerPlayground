@@ -20,7 +20,7 @@ App {
             CircularGauge {
                 id: speedometer
                 anchors.centerIn: parent
-                value: valueSource.kph
+                value: 100
                 anchors.verticalCenter: parent.verticalCenter
                 maximumValue: 280
                 // We set the width to the height, because the height will always be
@@ -31,6 +31,8 @@ App {
                 // large horizontal gaps between gauges on wide screens.
                 width: height
                 height: container.height * 0.5
+
+                style: DashboardGaugeStyle {}
             }
         }
 
