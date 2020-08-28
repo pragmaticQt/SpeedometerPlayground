@@ -3,7 +3,7 @@ import QtQuick 2.12
 import QtQuick.Extras 1.4
 import QtMultimedia 5.12
 
-App {
+GameWindow {
     Page {
         id: root
         visible: true
@@ -61,7 +61,7 @@ App {
                 // because they're laid out horizontally, and that would create
                 // large horizontal gaps between gauges on wide screens.
                 width: height
-                height: container.height * 0.5
+                height: container.height
 
                 style: DashboardGaugeStyle {}
             }
